@@ -3,7 +3,7 @@ Fluent Logging
 
 A small set of classes and methods for accessing .Net logging frameworks using a fluent API.
 
-Usage
+Usage (log4net)
 -------------
 
 The `LogEntry` and `LogFormatter` types provide the majority of the functionality, with `ILogFacade` being used to wrap your logger. 
@@ -38,4 +38,19 @@ public void DoSomething(int id) {
       .AsError();
   }
 }
+```
+
+This will print a message in the log file similar to:
+
+`Message = An error was encountered doing something], [Exception = (exception message)], [id = (id value)]`
+
+Formatting
+-------------
+The default formatter uses a key/value pair format with each pair wrapped in square brackets. You can change the
+the formatting used by creating a class which implements `ILogFormatter` and then setting it as the current formatter:
+
+```csharp
+LogFormatter.Set(
+  new MyFormatter()
+);
 ```
