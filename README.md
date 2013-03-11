@@ -12,7 +12,7 @@ A facade for log4net's `ILog` type is included, as well as extension methods to 
 Use the fluent log4net namespace:
 
 ```csharp
-using FluentLogging.Core.log4net;
+using FluentLogging.log4net;
 ```
   
 Create an `ILog` instance:
@@ -47,7 +47,7 @@ This will print a message in the log file similar to:
 Formatting
 -------------
 The default formatter uses a key/value pair format with each pair wrapped in square brackets. You can change the
-the formatting used by creating a class which implements `ILogFormatter` and then setting it as the current formatter:
+formatting used by creating a class which implements `ILogFormatter` and then setting it as the current formatter:
 
 ```csharp
 LogFormatter.Set(
