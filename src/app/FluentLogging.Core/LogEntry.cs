@@ -32,6 +32,18 @@ namespace FluentLogging.Core {
             return new LogEntry(log);
         }
 
+        public static LogEntry UsingCsonole() {
+            return new LogEntry(
+                ConsoleFacade.Instance
+            );
+        }
+
+        public static LogEntry UsingTrace() {
+            return new LogEntry(
+                TraceFacade.Instance
+            );
+        }
+
         public LogEntry WithItem(string key, object value) {
 
             if(String.IsNullOrWhiteSpace(key)) { throw new ArgumentException("key"); }
