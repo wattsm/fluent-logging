@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 tests", "1 tests", "{E913
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentLogging.Core.Tests", "tests\FluentLogging.Core.Tests\FluentLogging.Core.Tests.csproj", "{5371C19C-913E-43D9-B696-5412C51F603C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentLogging.Core.log4net", "app\FluentLogging.Core.log4net\FluentLogging.Core.log4net.csproj", "{D6A100B2-63E2-4E41-81CC-28CEACEC8499}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentLogging.Core.log4net", "app\FluentLogging.log4net\FluentLogging.log4net.csproj", "{D6A100B2-63E2-4E41-81CC-28CEACEC8499}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 demo", "2 demo", "{5094E528-8A19-4A52-B0FA-03DD5C33BB0E}"
 EndProject

@@ -7,8 +7,8 @@
     <ProjectGuid>{D6A100B2-63E2-4E41-81CC-28CEACEC8499}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FluentLogging.Core.log4net</RootNamespace>
-    <AssemblyName>FluentLogging.Core.log4net</AssemblyName>
+    <RootNamespace>FluentLogging.log4net</RootNamespace>
+    <AssemblyName>FluentLogging.log4net</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

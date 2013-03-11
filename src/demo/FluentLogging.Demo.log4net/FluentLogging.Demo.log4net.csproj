@@ -55,7 +55,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\app\FluentLogging.Core.log4net\FluentLogging.Core.log4net.csproj">
+    <ProjectReference Include="..\..\app\FluentLogging.log4net\FluentLogging.log4net.csproj">
       <Project>{d6a100b2-63e2-4e41-81cc-28ceacec8499}</Project>
       <Name>FluentLogging.Core.log4net</Name>
     </ProjectReference>

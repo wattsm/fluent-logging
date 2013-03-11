@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using log4net;
+using FluentLogging.Core;
 
-namespace FluentLogging.Core.log4net {
+namespace FluentLogging.log4net {
     public class Log4netFacade : ILogFacade {
 
         private readonly ILog _log;

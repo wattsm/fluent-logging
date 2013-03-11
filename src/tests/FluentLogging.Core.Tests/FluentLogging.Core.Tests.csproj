@@ -54,13 +54,13 @@
     <Compile Include="XunitConstants.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\app\FluentLogging.Core\FluentLogging.Core.csproj">
       <Project>{6314f161-52fd-47dd-96a0-34e0621d3a77}</Project>
       <Name>FluentLogging.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

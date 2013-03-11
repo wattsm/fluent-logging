@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using log4net;
 using log4net.Config;
-using FluentLogging.Core.log4net;
+using FluentLogging.log4net;
 using System.IO;
 
 namespace FluentLogging.Demo.log4net {
